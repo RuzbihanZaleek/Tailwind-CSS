@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* There had warning line under the @tailwind , to ignore that
+go to file->preferences->settings and search unknowns and select ignore from the CSS:Lint dropdown   */
+
+.radial-blue {
+    background: radial-gradient(lightyellow, skyblue);
+}
